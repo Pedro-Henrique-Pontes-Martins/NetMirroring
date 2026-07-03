@@ -1,7 +1,8 @@
+import Footer from "../layout/Footer"
 function Home(){
     return (
         <>
-            <p>Olá mundo</p>
+            <Footer/>
         </>
     )
 }
