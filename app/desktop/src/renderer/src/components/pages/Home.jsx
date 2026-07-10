@@ -5,6 +5,8 @@ import Footer from '../layout/Footer.jsx'
 
 import homeImg from '../../assets/cellphoneAndPC-Image.png'
 
+import styles from './Home.module.css'
+
 function Home(){
     const navigate = useNavigate()
 
@@ -12,12 +14,12 @@ function Home(){
         <>
             <Header/>
             
-            <main>
-                <img src={homeImg} alt="Image of a cellphone and computer" />
+            <main className={styles.main}>
+                <img src={homeImg} alt="Image of a cellphone and computer" className={styles.img}/>
 
-                <div>
-                    <button onClick={() => {navigate("/MirrorScreen")}}>Mirror Screen</button>
-                    <button onClick={() => {navigate("/ConnectDevice")}}>Connect Device</button>
+                <div className={styles.buttonsContainer}>
+                    <button onClick={() => {navigate("/MirrorScreen")}} className={styles.button}>Mirror Screen</button>
+                    <button onClick={() => {navigate("/ConnectDevice")}} className={styles.button}>Connect Device</button>
                 </div>
             </main>
 
