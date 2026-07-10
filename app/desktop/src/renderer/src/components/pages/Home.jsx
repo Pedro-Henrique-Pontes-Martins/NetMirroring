@@ -1,7 +1,8 @@
+import Header from '../layout/Header.jsx'
 function Home(){
     return (
         <>
-            <p>Olá mundo</p>
+            <Header/>
         </>
     )
 }
