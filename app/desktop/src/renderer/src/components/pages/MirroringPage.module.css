@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    padding: 0 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img{
+    width: 5vw;
+}
+
+.codeContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.codeTitle{
+    color: black;
+    font-size: 4vw;
+    text-decoration: underline;
+}
+
+.code{
+    color: black;
+    font-size: 5vw;
+}
+
+.devicesContainer{
+    display: flex;
+    flex-direction: column;
+}
+.devicesTitle{
+    color: black;
+    font-size: 2vw;
+    text-decoration: underline;
+}
