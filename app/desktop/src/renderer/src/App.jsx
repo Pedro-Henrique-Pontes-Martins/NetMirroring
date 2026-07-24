@@ -10,10 +10,10 @@ function App() {
   
   return (
     <Routes>
-      <Route path="/t" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/MirrorScreen" element={<MirroringPage />} />
       <Route path="/ConnectDevice" element={<ConnectionPage />} />
-      <Route path="/" element={<StreamPage />} />
+      <Route path="/StreamPage" element={<StreamPage />} />
     </Routes>
   )
 }
